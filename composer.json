@@ -1,5 +1,5 @@
 {
-    "name": "secarma/stats-collector",
+    "name": "the-gallery-ltd/stats-collector",
     "description": "Per-site request collector for the self-hosted stats service: records every request that reaches Laravel and ships it to the central stats app.",
     "type": "library",
     "license": "proprietary",

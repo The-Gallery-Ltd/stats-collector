@@ -1,4 +1,4 @@
-# secarma/stats-collector
+# the-gallery-ltd/stats-collector
 
 Per-site collector for the self-hosted stats service (our AWStats replacement). Install it in a Laravel 12 app (PHP 8.3+). It records every request that reaches Laravel and sends it to the central stats app over HTTP.
 
@@ -14,13 +14,20 @@ The package lives in its own git repository. Add it as a VCS repository in the h
 
 ```json
 "repositories": [
-    { "type": "vcs", "url": "git@github.com:secarma/stats-collector.git" }
+    { "type": "vcs", "url": "git@github.com:The-Gallery-Ltd/stats-collector.git" }
 ]
 ```
 
 ```bash
-composer require secarma/stats-collector
+composer require the-gallery-ltd/stats-collector:^0.1
 ```
+
+The repository is private, so Composer needs read access to it wherever `composer install` runs. Use a fine-grained GitHub token with **Contents: read-only** on this repo only:
+
+- **Locally:** `composer config --global github-oauth.github.com <token>`
+- **In CI:** set `COMPOSER_AUTH={"github-oauth": {"github.com": "<token>"}}` from a secret
+
+For Elastic Beanstalk, run `composer install --no-dev` in CI and deploy the bundle with `vendor/` included. Elastic Beanstalk then skips its own `composer install`, so the instances never need the token. Never commit the token (e.g. in `auth.json`).
 
 The service provider is auto-discovered. Then add to `.env`:
 
