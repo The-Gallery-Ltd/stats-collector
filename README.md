@@ -1,6 +1,6 @@
 # the-gallery-ltd/stats-collector
 
-Per-site collector for the self-hosted stats service (our AWStats replacement). Install it in a Laravel 12 app (PHP 8.3+). It records every request that reaches Laravel and sends it to the central stats app over HTTP.
+Per-site collector for the self-hosted stats service (our AWStats replacement). Install it in a Laravel 12 app (PHP 8.2+). It records every request that reaches Laravel and sends it to the central stats app over HTTP.
 
 It is built so that it can't break or slow down the host site:
 

@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Date;
  */
 final readonly class Backoff
 {
-    private const string FILE = 'backoff-until';
+    private const FILE = 'backoff-until';
 
     public function __construct(
         private Spool $spool,

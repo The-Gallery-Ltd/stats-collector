@@ -14,7 +14,7 @@ use TheGallery\StatsCollector\Transport\HttpTransport;
 
 final class TestCommand extends Command
 {
-    public const string TEST_PATH = '/__stats-collector-test';
+    public const TEST_PATH = '/__stats-collector-test';
 
     protected $signature = 'stats:test';
 

@@ -23,13 +23,13 @@ namespace TheGallery\StatsCollector;
  */
 final class Spool
 {
-    private const string SPOOL = 'spool.jsonl';
+    private const SPOOL = 'spool.jsonl';
 
-    private const string SENDING = 'spool.sending';
+    private const SENDING = 'spool.sending';
 
-    private const string OFFSET = 'spool.sending.offset';
+    private const OFFSET = 'spool.sending.offset';
 
-    private const string LOCK = 'flush.lock';
+    private const LOCK = 'flush.lock';
 
     /** @var resource|null */
     private $lockHandle = null;
