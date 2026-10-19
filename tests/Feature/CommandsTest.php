@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 use Illuminate\Http\Client\Request as ClientRequest;
 use Illuminate\Support\Facades\Http;
-use Secarma\StatsCollector\Backoff;
-use Secarma\StatsCollector\Spool;
+use TheGallery\StatsCollector\Backoff;
+use TheGallery\StatsCollector\Spool;
 
 it('stats:test reports success', function () {
     Http::fake(['stats.test/*' => Http::response(['accepted' => 1], 202)]);

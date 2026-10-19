@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Secarma\StatsCollector;
+namespace TheGallery\StatsCollector;
 
 use Illuminate\Contracts\Http\Kernel as HttpKernel;
 use Illuminate\Support\ServiceProvider;
-use Secarma\StatsCollector\Console\FlushCommand;
-use Secarma\StatsCollector\Console\TestCommand;
-use Secarma\StatsCollector\Http\Middleware\CollectRequest;
-use Secarma\StatsCollector\Transport\HttpTransport;
+use TheGallery\StatsCollector\Console\FlushCommand;
+use TheGallery\StatsCollector\Console\TestCommand;
+use TheGallery\StatsCollector\Http\Middleware\CollectRequest;
+use TheGallery\StatsCollector\Transport\HttpTransport;
 use Throwable;
 
 final class StatsCollectorServiceProvider extends ServiceProvider

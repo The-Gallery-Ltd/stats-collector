@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Secarma\StatsCollector\Exceptions;
+namespace TheGallery\StatsCollector\Exceptions;
 
 use RuntimeException;
 use Throwable;

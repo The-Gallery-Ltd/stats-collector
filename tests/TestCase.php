@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Secarma\StatsCollector\Tests;
+namespace TheGallery\StatsCollector\Tests;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Secarma\StatsCollector\StatsCollectorServiceProvider;
+use TheGallery\StatsCollector\StatsCollectorServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

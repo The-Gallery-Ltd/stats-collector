@@ -66,11 +66,11 @@ Collection is switched off automatically when the endpoint or key is empty, and 
 
 ## Middleware registration
 
-By default the provider pushes `Secarma\StatsCollector\Http\Middleware\CollectRequest` onto the global HTTP middleware stack. To register it yourself, set `STATS_AUTO_REGISTER_MIDDLEWARE=false` and add it in `bootstrap/app.php`:
+By default the provider pushes `TheGallery\StatsCollector\Http\Middleware\CollectRequest` onto the global HTTP middleware stack. To register it yourself, set `STATS_AUTO_REGISTER_MIDDLEWARE=false` and add it in `bootstrap/app.php`:
 
 ```php
 ->withMiddleware(function (Middleware $middleware) {
-    $middleware->append(\Secarma\StatsCollector\Http\Middleware\CollectRequest::class);
+    $middleware->append(\TheGallery\StatsCollector\Http\Middleware\CollectRequest::class);
 })
 ```
 

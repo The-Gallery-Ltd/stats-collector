@@ -6,10 +6,10 @@ use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Http\Client\Request as ClientRequest;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Queue;
-use Secarma\StatsCollector\Backoff;
-use Secarma\StatsCollector\Jobs\SendEvents;
-use Secarma\StatsCollector\Spool;
-use Secarma\StatsCollector\StatsCollector;
+use TheGallery\StatsCollector\Backoff;
+use TheGallery\StatsCollector\Jobs\SendEvents;
+use TheGallery\StatsCollector\Spool;
+use TheGallery\StatsCollector\StatsCollector;
 
 function fakeAccepted(): void
 {

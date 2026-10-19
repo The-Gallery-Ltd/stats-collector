@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Secarma\StatsCollector;
+namespace TheGallery\StatsCollector;
 
 use Illuminate\Support\Facades\Date;
 

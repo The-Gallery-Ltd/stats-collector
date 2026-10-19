@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Secarma\StatsCollector\Jobs;
+namespace TheGallery\StatsCollector\Jobs;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
-use Secarma\StatsCollector\Exceptions\TransportException;
-use Secarma\StatsCollector\Recorder;
-use Secarma\StatsCollector\Spool;
-use Secarma\StatsCollector\Transport\HttpTransport;
+use TheGallery\StatsCollector\Exceptions\TransportException;
+use TheGallery\StatsCollector\Recorder;
+use TheGallery\StatsCollector\Spool;
+use TheGallery\StatsCollector\Transport\HttpTransport;
 use Throwable;
 
 /**

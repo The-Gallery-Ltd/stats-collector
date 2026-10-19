@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Secarma\StatsCollector\Http\Middleware;
+namespace TheGallery\StatsCollector\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use Secarma\StatsCollector\EventFactory;
-use Secarma\StatsCollector\Recorder;
-use Secarma\StatsCollector\Settings;
+use TheGallery\StatsCollector\EventFactory;
+use TheGallery\StatsCollector\Recorder;
+use TheGallery\StatsCollector\Settings;
 use Symfony\Component\HttpFoundation\Response;
 use Throwable;
 

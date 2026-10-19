@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Secarma\StatsCollector;
+namespace TheGallery\StatsCollector;
 
 use Illuminate\Contracts\Bus\Dispatcher;
 use Illuminate\Support\Facades\Log;
-use Secarma\StatsCollector\Exceptions\TransportException;
-use Secarma\StatsCollector\Jobs\SendEvents;
-use Secarma\StatsCollector\Transport\HttpTransport;
+use TheGallery\StatsCollector\Exceptions\TransportException;
+use TheGallery\StatsCollector\Jobs\SendEvents;
+use TheGallery\StatsCollector\Transport\HttpTransport;
 use Throwable;
 
 /**

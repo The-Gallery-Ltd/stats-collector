@@ -17,12 +17,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Secarma\\StatsCollector\\": "src/"
+            "TheGallery\\StatsCollector\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Secarma\\StatsCollector\\Tests\\": "tests/"
+            "TheGallery\\StatsCollector\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Secarma\\StatsCollector\\StatsCollectorServiceProvider"
+                "TheGallery\\StatsCollector\\StatsCollectorServiceProvider"
             ]
         }
     },

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Secarma\StatsCollector;
+namespace TheGallery\StatsCollector;
 
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Contracts\Foundation\Application;

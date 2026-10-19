@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Secarma\StatsCollector\Console;
+namespace TheGallery\StatsCollector\Console;
 
 use Illuminate\Console\Command;
-use Secarma\StatsCollector\Recorder;
-use Secarma\StatsCollector\Settings;
-use Secarma\StatsCollector\Spool;
+use TheGallery\StatsCollector\Recorder;
+use TheGallery\StatsCollector\Settings;
+use TheGallery\StatsCollector\Spool;
 
 final class FlushCommand extends Command
 {

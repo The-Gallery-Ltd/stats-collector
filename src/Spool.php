@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Secarma\StatsCollector;
+namespace TheGallery\StatsCollector;
 
 /**
  * Local JSONL spool for events that could not be delivered yet.

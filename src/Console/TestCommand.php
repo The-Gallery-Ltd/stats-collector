@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Secarma\StatsCollector\Console;
+namespace TheGallery\StatsCollector\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Secarma\StatsCollector\EventFactory;
-use Secarma\StatsCollector\Exceptions\TransportException;
-use Secarma\StatsCollector\Settings;
-use Secarma\StatsCollector\Transport\HttpTransport;
+use TheGallery\StatsCollector\EventFactory;
+use TheGallery\StatsCollector\Exceptions\TransportException;
+use TheGallery\StatsCollector\Settings;
+use TheGallery\StatsCollector\Transport\HttpTransport;
 
 final class TestCommand extends Command
 {

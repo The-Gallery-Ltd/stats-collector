@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Secarma\StatsCollector\Transport;
+namespace TheGallery\StatsCollector\Transport;
 
 use Illuminate\Http\Client\Factory as HttpFactory;
-use Secarma\StatsCollector\Exceptions\TransportException;
-use Secarma\StatsCollector\Settings;
-use Secarma\StatsCollector\StatsCollector;
+use TheGallery\StatsCollector\Exceptions\TransportException;
+use TheGallery\StatsCollector\Settings;
+use TheGallery\StatsCollector\StatsCollector;
 use Throwable;
 
 final readonly class HttpTransport
