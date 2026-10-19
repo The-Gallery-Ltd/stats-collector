@@ -6,10 +6,10 @@ namespace TheGallery\StatsCollector\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\Response;
 use TheGallery\StatsCollector\EventFactory;
 use TheGallery\StatsCollector\Recorder;
 use TheGallery\StatsCollector\Settings;
-use Symfony\Component\HttpFoundation\Response;
 use Throwable;
 
 /**
