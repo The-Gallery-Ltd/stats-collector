@@ -104,6 +104,7 @@ return [
         '_ignition/*',
         'sanctum/csrf-cookie',
         'build/*',
+        'api/health-check',
     ],
 
     /*
